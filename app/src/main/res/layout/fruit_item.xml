@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/linearBgColor"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/fruit_item_imageView"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:scaleType="fitXY"
+        >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fruit_item_textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meyve Ismi"
+            android:textColor="@color/textColor"
+            android:textSize="19sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/fruit_item_textView_calori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Kalori"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
